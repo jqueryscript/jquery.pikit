@@ -33,30 +33,11 @@
             format: '.format',
             customText: '&text=customText'
           },
-          dummyimages: {
-            url: 'dummyimages.com/widthxheight/backColor/foreColor.format&text=customText',
-            backColor: '/backColor',
-            foreColor: '/foreColor',
-            format: '.format',
-            customText: '&text=customText'
-          },
           fpoimg: {
             url: 'fpoimg.com/widthxheight?&bg_color=backColor&text_color=foreColor&text=customText',
             backColor: '&bg_color=backColor',
             foreColor: '&text_color=foreColor',
             customText: '&text=customText'
-          },
-          instasrc: {
-            url: 'instasrc.com/width/height/category/greyscale',
-            category: '/category',
-            greyscale: '/greyscale'
-          },
-          ipsumimage: {
-            url: 'ipsumimage.com/widthxheight?&l=customText&f=foreColor&b=backColor&t=format',
-            customText: '&l=customText',
-            backColor: '&b=backColor',
-            foreColor: '&f=foreColor',
-            format: '&f=format'
           },
           lorempixel: {
             url: 'lorempixel.com/g/width/height/category/variant',
@@ -67,16 +48,6 @@
           nosrc: {
             url: 'nosrc.net/widthxheight'
           },
-          placeboxes: {
-            url: 'placebox.es/width/height/backColor/foreColor/customText',
-            backColor: '/backColor',
-            foreColor: '/foreColor',
-            customText: '/customText'
-          },
-          placedog: {
-            url: 'placedog.com/g/width/height',
-            greyscale: '/g'
-          },
           placeholdit: {
             url: 'placehold.it/widthxheight/backColor/foreColor.format&text=customText',
             backColor: '/backColor',
@@ -84,26 +55,9 @@
             format: '.format',
             customText: '&text=customText'
           },
-          placeholdus: {
-            url: 'placehold.it/widthxheight'
-          },
-          placekitten: {
-            url: 'placekitten.com/g/width/height',
-            greyscale: '/g'
-          },
-          placesheen: {
-            url: 'placesheen.com/width/height'
-          },
-          placezombies: {
-            url: 'placezombies.com/g/widthxheight',
-            greyscale: '/g'
-          },
-          placepuppy: {
-            url: 'placepuppy.it/width/height'
-          },
-          nicenicejpg: {
-            url: 'nicenicejpg.com/width/height'
-          }
+		  placeimg: {
+			  url: 'placeimg.com/width/height/any'
+		}
         };
         this.parseOptions();
         this.create();
